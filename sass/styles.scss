@@ -1,0 +1,343 @@
+//variables
+$colorfont: white;
+$colorbc: black;
+$theposi: center;
+$colorfoot: grey;
+
+$color_1: aliceblue;
+$color_2: white;
+$color_3: black;
+$font-family_1: Arial, sans-serif;
+$background-color_1: rgb(0, 0, 0);
+$background-color_2: black;
+$background-color_3: gray;
+$background-color_4: grey;
+$border-color_1: white;
+
+/* Estilos responsive para index.html*/
+/* Media queries para dispositivos pequeños */
+.title {
+	font-style: italic;
+	font-size: 36px;
+	text-align: center;
+	margin: 20px 0;
+}
+.background {
+	background-color: $background-color_1;
+	color: $color_1;
+}
+.fondonegro {
+	background-color: $background-color_2;
+	color: $color_1;
+}
+.hero {
+	min-height: 100vh;
+	min-width: 100vh;
+	position: relative;
+	padding: 20px;
+}
+video {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	object-position: 100%;
+	object-fit: cover;
+	opacity: 50%;
+}
+.resina {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 60%;
+	margin: auto;
+	position: relative;
+	z-index: 2;
+}
+.title3 {
+	font-size: xx-large;
+	position: absolute;
+	top: 30%;
+	right: 40%;
+}
+.link2 {
+	text-decoration: none;
+	display: inline-block;
+	margin-right: 0.625%;
+	text-align: center;
+	color: $color_2;
+	background-color: $background-color_2;
+	border: solid;
+	border-color: $border-color_1;
+}
+.link {
+	color: $color_2;
+	text-decoration: none;
+	display: inline-block;
+	margin-right: 0.625%;
+	text-align: center;
+	background-color: $background-color_2;
+	border: solid;
+	border-color: $border-color_1;
+	text-decoration: none;
+	color: $color_3;
+}
+.order {
+	text-align: center;
+	padding: 20px;
+}
+li {
+	list-style: none;
+}
+.link3 {
+	text-decoration: none;
+	background-color: $background-color_4;
+	display: inline-block;
+	width: 110px;
+	display: flex;
+	text-align: center;
+	color: $color_2;
+	border: solid;
+	border-color: $border-color_1;
+}
+.link4 {
+	text-decoration: none;
+	background-color: grey;
+	display: inline-block;
+	width: 110px;
+	display: flex;
+	text-align: center;
+	color: $color_2;
+	border: solid;
+	border-color: $border-color_1;
+}
+.fondo2 {
+	background-color: $background-color_2;
+	color: $color_2;
+}
+.link5 {
+	text-decoration: none;
+	display: inline-block;
+	margin-right: 0.625%;
+	text-align: center;
+	color: $color_2;
+	background-color: $background-color_2;
+	border: solid;
+	border-color: $border-color_1;
+}
+.video-container {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	opacity: 50%;
+	position: relative;
+	width: 100%;
+	padding-bottom: 56.25%;
+	overflow: hidden;
+	margin-bottom: 20px;
+	a {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		z-index: 1;
+		color: $color_3;
+		text-decoration: none;
+		font-size: x-large;
+		background-color: $background-color_3;
+		border: solid;
+		border-color: $border-color_1;
+	}
+	video {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+}
+
+
+.black {
+	background-color: $background-color_2;
+}
+.row {
+	
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   justify-content: center;
+    
+}
+
+
+body {
+	width: 100%;
+	margin: 0%;
+	background-color: $background-color_2;
+	box-sizing: border-box;
+	font-family: $font-family_1;
+	margin: 0;
+	padding: 0;
+ 
+}
+.container {
+	width: 100%;
+	margin: 0%;
+    text-align: center;
+    
+}
+.col-sm-12 {
+	display: flex;
+	flex-direction: column;
+    text-align: center;
+   background-color: gray;
+   left: 10%;
+   bottom: -200px;
+   border: solid;
+   border-color: $color_2;
+
+}
+img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+}
+.linksotes {
+	display: flex;
+	justify-content: flex-start;
+}
+.linksotes2 {
+	display: flex;
+	justify-content: flex-start;
+}
+.foto1 {
+	width: 18%;
+	display: inline-block;
+	border: solid;
+	border-color: $border-color_1;
+}
+.foto2 {
+	width: 18%;
+	display: inline-block;
+	border: solid;
+	border-color: $border-color_1;
+}
+.foto3 {
+	width: 18%;
+	display: inline-block;
+	border: solid;
+	border-color: $border-color_1;
+}
+.texto {
+	display: flex;
+	justify-content: space-around;
+    color: $color_2;
+}
+.fotoos {
+	display: flex;
+	justify-content: space-evenly;
+}
+.link6 {
+	text-decoration: none;
+	color: $color_2;
+	background-color: $background-color_4;
+	border: solid;
+	border-color: $border-color_1;
+}
+.link7 {
+	text-decoration: none;
+	color: $color_2;
+	background-color: $background-color_4;
+	border: solid;
+	border-color: $border-color_1;
+}
+.link8 {
+	text-decoration: none;
+	color: $color_2;
+	background-color: $background-color_4;
+	border: solid;
+	border-color: $border-color_1;
+}
+.link9 {
+	text-decoration: none;
+	color: $color_2;
+	background-color: $background-color_4;
+	border: solid;
+	border-color: $border-color_1;
+}
+.link10 {
+	text-decoration: none;
+	color: $color_2;
+	background-color: $background-color_4;
+	border: solid;
+	border-color: $border-color_1;
+}
+footer {
+	background-color: $background-color_4;
+	border: solid;
+	border-color: $color_2;
+}
+.fondogris {
+	background-color: $background-color_4;
+	border: solid;
+	border-color: $color_2;
+}
+@media (max-width: 767px) {
+	body {
+		display: grid;
+	}
+	.texti {
+		width: 100%;
+	}
+	.col-sm-12 {
+		width: 50%;
+	}
+}
+@media (min-width: 768) and (max-width: 990px) {
+	body {
+		display: grid;
+	}
+	.texti {
+		width: 100%;
+	}
+	.col-sm-12 {
+		width: 50%;
+	}
+}
+@media (min-width: 991px) {
+	body {
+		display: grid;
+	}
+	.texti {
+		width: 70%;
+	}
+	.col-sm-12 {
+		width: 50%;
+	}
+	.title4 {
+		display: flex;
+		justify-content: center;
+	}
+}
+@media screen and (max-width: 768px) {
+	.title {
+		font-size: 24px;
+	}
+	.link {
+		font-size: 14px;
+	}
+	.video-container {
+		margin-bottom: 10px;
+	}
+}
+
+
+	
+
+	
